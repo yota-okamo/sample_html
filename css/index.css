@@ -2,30 +2,40 @@
 
 .first-view {
     height: calc(100vh - 110px);
-    background: url(../images/index/bg-main.jpg);
+    background-image: url(../images/index/bg_main.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
     align-items: center;
 }
-/*テキストエリアの幅*/
+
 .first-view-text {
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    padding-bottom: 80px;
+    padding-right: 80px;
     color: #ffffff;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;/*テキストの色/太さ/影*/
+    text-shadow: 1px 1px 10px #4b2c14;
 }
-/*アイキャッチのフォント*/
+
 .first-view-text h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 56px;
     line-height: 72px;
+}
+
+.first-view-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.lead {
+    max-width: 1200px;
+    margin: 60px auto;
 }
 
 *,
@@ -120,6 +130,18 @@ img {
 
     .header-logo {
         width: 100px;
+    }
+
+    .main {
+        padding-top: 50px;
+    }
+
+    .footer-logo {
+        margin-top: 60px;
+    }
+
+    .copyright {
+        margin-top: 50px;
     }
 }
 
