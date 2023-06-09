@@ -63,6 +63,38 @@ img {
     font-family: 'Cherry Bomb One', cursive;
 }
 
+@media (max-width: 800px) {
+    .site-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .site-menu li {
+        margin-top: 20px;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        height: 50px;
+        z-index: 10;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+}
+
 .footer {
     color: #ffffff;
     background-color: #24211b;
@@ -80,53 +112,7 @@ img {
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
 }
-08-09.css
-08-09.css を表示しています。
-第08回講義資料
-米澤弘毅
-•
-5月31日 （最終編集: 6月2日）
-作業結果の記載
-
-https://docs.google.com/spreadsheets/d/1eUGFhgSYN6Z1ovJ9rdGYC1j0SXJEGwQ2F-5vZGpQ0Rc/edit?usp=sharing
-
-08.pptx
-PowerPoint
-
-08-01.html
-HTML
-
-08-00.html
-HTML
-
-08-07.css
-スタイルシート
-
-08-08.css
-スタイルシート
-
-08-09.css
-スタイルシート
-
-08-01.css
-スタイルシート
-
-08-02.css
-スタイルシート
-
-08-03.css
-スタイルシート
-
-08-04.css
-スタイルシート
-
-08-05.css
-スタイルシート
-
-08-06.css
-スタイルシート
-クラスのコメント
